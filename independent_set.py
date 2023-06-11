@@ -184,6 +184,7 @@ for p in p_list:
     time_of_al = 0
 
 print('Ok')
+print('Everything Alright')
 
 
 
