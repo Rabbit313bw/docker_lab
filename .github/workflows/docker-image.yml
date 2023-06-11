@@ -24,6 +24,8 @@ jobs:
       with:
         username: ${{ secrets.rabbit85 }}
         password: ${{ secrets.dckr_pat_jn5Cx8vY3P-ejRfBbGZ3TIVlqbY }}
+      env:
+        DEBUG: true
 
     - name: Build and Push Docker Image
       uses: docker/build-push-action@v2
