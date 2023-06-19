@@ -185,7 +185,6 @@ for p in p_list:
 
 print('Ok')
 print('Everything Alright')
-print(independent_number_list)
-
+print('123')
 
 
